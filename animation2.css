@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.bg{
+	width: 100%;
+	height: 590px;
+	background-color: blue;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK8DqT2EGJtFSllh0RhmfK_KsHZ_-f0IpFGQ&usqp=CAU);
+
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+.aro{
+	position: absolute;
+	top:400px;
+	left:0px;
+
+	animation-name: demo;
+	animation-duration: 4s;
+	animation-iteration-count: 50;
+}
+
+
+
+
+
+
+@keyframes demo{
+
+
+	50%
+{
+
+
+
+	transform:translateX(450px);
+}
+
+100%{
+
+
+	animation-duration: 3s;
+
+	transform: translate(1400px,-950px);
+}
+
+
+	
+
+}
